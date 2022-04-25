@@ -3,7 +3,7 @@ body {
 }
 /*body header*/
 #body-header {
-  height:114vh;
+  height: 114vh;
   opacity: 0.8;
   background-image: url(macbook-mouse.jpg);
   background-attachment: fixed;
@@ -19,7 +19,6 @@ body {
   text-align: center;
 }
 #navigation ul li {
-  
   display: inline-block;
   margin: 0px 8px 8px 0px;
   font-weight: 100;
@@ -27,127 +26,232 @@ body {
 }
 
 #navigation ul li a {
-    font-family:sans-serif ;
-    padding: 24px;
-    font-size: 1.2rem;
-    color: white;
-    text-decoration: none;
-    border-bottom: ;
-   transition: color 1s,border-bottom 2s;
+  font-family: sans-serif;
+  padding: 24px;
+  font-size: 1.2rem;
+  color: white;
+  text-decoration: none;
+  border-bottom: ;
+  transition: color 1s, border-bottom 2s;
 }
-#navigation ul li a:hover{
-color: rgb(230, 103, 103);
-border-bottom: 1.5px solid rgb(22, 204, 31);
+#navigation ul li a:hover {
+  color: rgb(230, 103, 103);
+  border-bottom: 1.5px solid rgb(22, 204, 31);
 }
 
- .text-center{
-     text-align:center;
- }
- #my-name{
-     color: white; 
-     font-family:Verdana, Geneva, Tahoma, sans-serif;
-     font-size:2.5rem;
-     font-weight:550;
-     padding-top: 350px;
-     transition: font-size 1.5s;
- }
- .social-list{
-     padding-left: 0px;
-     margin: 0px;
-     list-style: none;
-     text-align: center;
- }
- .social-list li{
-     display: inline-block;
-     padding: 0px 8px 8px 0px;
+.text-center {
+  text-align: center;
+}
+#my-name {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.5rem;
+  font-weight: 550;
+  padding-top: 350px;
+  transition: font-size 1.5s;
+}
+.social-list {
+  padding-left: 0px;
+  margin: 0px;
+  list-style: none;
+  text-align: center;
+}
+.social-list li {
+  display: inline-block;
+  padding: 0px 8px 8px 0px;
+}
+.social-list li a {
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 20px;
+  font-family: sans-serif;
+}
 
- }
- .social-list li a{
-     text-decoration: none;
-     font-size:1rem;
-     padding: 20px;
-     font-family: sans-serif;
-     
- }
- 
- .social-list li a img{
-    background-color:white ;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    transition: background-color 1.2s;
- }
- .social-list li a img:hover{
-    background-color:  rgb(250, 240, 148);
-    box-shadow: 0px 0px 5px 4px rgb(250, 62, 62,0.6);
- }
- #about{
-   height: auto;
-   width: 100%;
-   position: relative;
- }
- #my-image{
-   height: 12rem;
-   width: 12rem;
-   margin: auto;
-    
-   margin-top: -15vh;
-   
-    
-   
- } 
- #my-image img{
-   height: 100%;
-   width: 100%;
-   border-radius: 50%;
-   box-shadow: 0px 0px 6px 4px  rgb(230, 163, 163);
-     
- }
- #about p{
-   text-align: center;
-   
-  text-shadow:1px 1px 1px rgb(230, 163, 163) ;
-   font-size: 1.25rem;
-   font-family:Verdana, Geneva, Tahoma, sans-serif;
- }
- section{
-   width: 100%;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-  
- }
- #skills{
+.social-list li a img {
+  background-color: white;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  transition: background-color 1.2s;
+}
+.social-list li a img:hover {
+  background-color: rgb(250, 240, 148);
+  box-shadow: 0px 0px 5px 4px rgb(250, 62, 62, 0.6);
+}
+#about {
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+#my-image {
+  height: 12rem;
+  width: 12rem;
+  margin: auto;
+
+  margin-top: -15vh;
+}
+#my-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0px 0px 6px 4px rgb(230, 163, 163);
+}
+#about p {
+  text-align: center;
+
+  text-shadow: 1px 1px 1px rgb(230, 163, 163);
+  font-size: 1.25rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#skills {
   background-color: rgb(230, 224, 224);
-  height: 90vh;
+  height: 60vh;
 }
- .section-heading{
-   width: auto;
-   padding: 20px 20px 20px;
-   font-weight: 400;
- }
- .section-heading span{
-   font-size: 40px;
-   display: inline-block;
-   padding-top: 10px;
-   margin-right: 0.5rem;
-   color: rgb(70, 70, 211);
-
- }
- .section-heading span img{
+.section-heading {
+  width: auto;
+  padding: 20px 20px 20px;
+  font-weight: 400;
+}
+.section-heading span {
+  font-size: 40px;
+  display: inline-block;
+  padding-top: 10px;
+  margin-right: 0.5rem;
+  color: rgb(70, 70, 211);
+}
+.section-heading span img {
   height: 28px;
-   width: 40px;
-   border-radius: 50%;
-   
- }
- .section-heading span img:hover{
-   box-shadow: 0px 0px 4px 6px rgb(250, 62, 62,0.6);
- }
- .skills-display{
-  width: 70%;  
+  width: 40px;
+  border-radius: 50%;
+}
+.section-heading span img:hover {
+  box-shadow: 0px 0px 4px 6px rgb(250, 62, 62, 0.6);
+}
+.skills-display {
+  width: 50%;
   height: 100px;
-  border: 2px solid rgb(19, 18, 16); 
+  /*border: 2px solid rgb(19, 18, 16);*/
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between
- }
+  justify-content:space-between;
+}
+
+.skills-progressjava {
+  width: 10rem;
+  height: 1.5rem;
+  background-color: rgb(150, 146, 146);
+  border-radius: 8px;
+}
+.eighty_percent {
+  width: 80%;
+  height: inherit;
+  border-radius: 8px;
+  background-color: blue;
+}
+.skill_name span {
+  color: rgb(248, 237, 237);
+  font-size: 1.1rem;
+  margin-left: 15px;
+}
+.skill-progresshtml {
+  width: 10rem;
+  height: 1.5rem;
+  border-radius: 8px;
+  background-color: rgb(150, 146, 146);
+}
+.ninty_percent {
+  width: 90%;
+  height: inherit;
+  border-radius: 8px;
+  background-color: red;
+}
+.skill-progresscss {
+  width: 10rem;
+  height: 1.5rem;
+  border-radius: 8px;
+  background-color: rgb(150, 146, 146);
+}
+.eightyfive_percent {
+  width: 85%;
+  height: inherit;
+  border-radius: 8px;
+  background-color: orange;
+}
+.skill-progressjavascript{
+  width: 10rem;
+  height: 1.5rem;
+  border-radius: 8px;
+  background-color: rgb(150, 146, 146);
+}
+.fifty_percent{
+  width: 50%;
+  height: inherit;
+  border-radius: 8px;
+  background-color: green;
+}
+.skill-progressnodejs{
+  width: 10rem;
+  height: 1.5rem;
+  border-radius: 8px;
+  background-color: rgb(150, 146, 146);
+}
+.ten_percent{
+  width: 50%;
+  height: inherit;
+  border-radius: 8px;
+  background-color: green;
+}
+.skill-progressreact{
+  width: 10rem;
+  height: 1.5rem;
+  border-radius: 8px;
+  background-color: rgb(150, 146, 146);
+}
+.twenty_percent{
+  width: 50%;
+  height: inherit;
+  border-radius: 8px;
+  background-color: green;
+}
+.skill-progressMongoDB{
+  width: 10rem;
+  height: 1.5rem;
+  border-radius: 8px;
+  background-color: rgb(150, 146, 146);
+}
+.five_percent{
+  width: 50%;
+  height: inherit;
+  border-radius: 8px;
+  background-color: green;
+}
+#experience{
+  height: 90vh;
+  background-color: cyan;
+}
+#education{
+  height: 90vh;
+  background-color: cornflowerblue;
+}
+#portfolio{
+  height: 90vh;
+  background-color: burlywood;
+}
+.portfolio-display{
+  display: flex;
+  width: 60%;
+  height: 100px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+.portfolio-display img{
+  height: 140px;
+  width: 154px;
+}
